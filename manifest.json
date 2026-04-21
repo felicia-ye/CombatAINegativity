@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CombatAINegativity",
+  "version": "1.0",
+  "description": "Evaluate text reliability and intent",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
